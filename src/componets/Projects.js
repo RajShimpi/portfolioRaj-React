@@ -277,7 +277,10 @@ export default function Projects() {
                         <h5 class="card-title">Social Media Dashborad</h5>
                         <p class="card-text m-auto justify-content-center">
                             <ul>
-                                <li></li>
+                                <li>A Social Media Dashboard website, built using React, HTML, CSS, and JavaScript, offers users a unified platform to monitor.</li>
+                                <li> It amalgamates real-time data from multiple social networks, enabling businesses and individuals to track Followers. </li>
+                                <li> React components facilitate a responsive and intuitive user interface, while JavaScript handles data fetching, interactivity. </li>
+                                <li>  This dynamic dashboard optimizes social media strategies, boosts online visibility, and streamlines content management, empowering users to make informed decisions and enhance their digital presence effectively.</li>
                             </ul>
                         </p>
                         <p class="card-text"><small class="text-body-secondary">More About Project</small></p>
