@@ -1,11 +1,12 @@
 import React from 'react';
 import '../App.css';
+import './Contact.css'
 
 export default function Contact() {
     return (
-        <section id="contact" style={{marginTop:'80px'}} >
+        <section id="contact" style={{ marginTop: '80px' }} >
             <h1 className="text-center">Contact Me</h1>
-            <div className="container mt-3 contactContent">
+            <div className="container mt-3 contactContent" style={{ marginBottom: '24px' }}>
                 <div className="row mt-4">
                     <div className="col-lg-6">
                         <div style={{ overflow: 'hidden', resize: 'none', maxWidth: '100%', width: '500px', height: '500px' }}>
@@ -30,24 +31,38 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className="col-lg-6">
-                        <form>
-                            <input type="text" className="form-control form-control-lg" placeholder="Name" />
-                            <input type="email" className="form-control mt-3" placeholder="Email" />
-                            <input type="text" className="form-control mt-3" placeholder="Subject" />
-                            <div className="mb-3 mt-3">
-                                <textarea
-                                    className="form-control"
-                                    rows="5"
-                                    id="comment"
-                                    name="text"
-                                    placeholder="Project Details"
-                                ></textarea>
-                            </div>
+                    <div className="col-lg-6" style={{ padding: '70px' }}>
+                        <form class="form">
+                            <input type="text" name="text" autocomplete="off" required />
+                            <label for="text" class="label-name">
+                                <span class="content-name">
+                                    Name:
+                                </span>
+                            </label>
                         </form>
-                        <button type="button" className="btn btn-success mt-3">
-                            Contact Me
-                        </button>
+                        <form class="form">
+                            <input type="text" name="text" autocomplete="off" required />
+                            <label for="text" class="label-name">
+                                <span class="content-name">
+                                    Email:
+                                </span>
+                            </label>
+                        </form>
+                        <form class="form">
+                            <input type="text" name="text" autocomplete="off" required />
+                            <label for="text" class="label-name">
+                                <span class="content-name">
+                                    Mo. No.:
+                                </span>
+                            </label>
+                        </form>
+                            <div class="button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Contact Me
+                            </div>
                     </div>
                 </div>
             </div>

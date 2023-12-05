@@ -21,6 +21,13 @@ export default function Skills() {
           </div>
         </div>
         <div class="card mx-2 my-2" style={{ width: '18rem' }}>
+          <img src="/img/tail.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 id="first" class="card-title">Tailwind CSS</h5>
+            <p class="card-text">CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</p>
+          </div>
+        </div>
+        <div class="card mx-2 my-2" style={{ width: '18rem' }}>
           <img src="/img/JavaScript.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 id="first" class="card-title">JavaScript</h5>
@@ -31,6 +38,41 @@ export default function Skills() {
           <img src="/img/React.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 id="first" class="card-title">React JS</h5>
+            <p class="card-text">React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
+          </div>
+        </div>
+        <div class="card mx-2 my-2" style={{ width: '18rem' }}>
+          <img src="/img/inertia.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 id="first" class="card-title">inertia JS</h5>
+            <p class="card-text">React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
+          </div>
+        </div>
+        <div class="card mx-2 my-2" style={{ width: '18rem' }}>
+          <img src="/img/node.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 id="first" class="card-title">Node JS</h5>
+            <p class="card-text">React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
+          </div>
+        </div>
+        <div class="card mx-2 my-2" style={{ width: '18rem' }}>
+          <img src="/img/nest.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 id="first" class="card-title">Nest JS</h5>
+            <p class="card-text">React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
+          </div>
+        </div>
+        <div class="card mx-2 my-2" style={{ width: '18rem' }}>
+          <img src="/img/exp.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 id="first" class="card-title">Express JS</h5>
+            <p class="card-text">React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
+          </div>
+        </div>
+        <div class="card mx-2 my-2" style={{ width: '18rem' }}>
+          <img src="/img/laravel.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 id="first" class="card-title">Laravel JS</h5>
             <p class="card-text">React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
           </div>
         </div>
@@ -75,6 +117,13 @@ export default function Skills() {
           <img src="/img/mongodb.jpeg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 id="first" class="card-title">MongoDB</h5>
+            <p class="card-text">MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.</p>
+          </div>
+        </div>
+        <div class="card mx-2 my-2" style={{ width: '18rem' }}>
+          <img src="/img/ora.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 id="first" class="card-title">Oracle</h5>
             <p class="card-text">MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.</p>
           </div>
         </div>

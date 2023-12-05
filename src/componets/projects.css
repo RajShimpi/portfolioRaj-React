@@ -1,0 +1,91 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    flex-wrap: wrap;
+}
+
+.cards .card {
+    width: 310px;
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-out 0.5s;
+}
+
+.card1 {
+    background: linear-gradient(#ffcaa6, #f86594);
+}
+
+.card2 {
+    background: linear-gradient(#fff956, #f1930f);
+}
+
+.card3 {
+    background: linear-gradient(#2feaa8, #028cf3);
+}
+
+.cards:hover .card {
+    filter: blur(2px);
+    transform: scale(1);
+    opacity: 0.9;
+}
+
+.cards .card:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.content {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.content img {
+    width: 290px;
+    height: 170px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.content h1 {
+    font-size: 20px;
+    padding-top: 8px;
+    justify-content: center;
+}
+
+.content p {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.content button {
+    padding: 4px 20px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.content button:hover {
+    background-color: #00c6f8;
+}
+.btnN{
+    display: flex;
+}
+.btns{
+    margin-top: 5px;
+}

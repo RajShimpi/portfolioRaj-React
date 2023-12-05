@@ -1,7 +1,7 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: rgb(46, 161, 255);
+  background: linear-gradient(to right, #8711c1, #8752a3, #f45fda);
 }
 .size {
   font-size: 300%;

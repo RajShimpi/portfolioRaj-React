@@ -1,14 +1,32 @@
 import React from 'react';
 import '../App.css';
+import './About.css';
 
 export default function About() {
   return (
     <section id="about" style={{ marginTop: '80px' }} >
       <h1 className="text-center">About Me</h1>
-      <div className="container mt-4 pt-4">
+      <div className="container mt-2 pt-2">
         <div className="row mt-4">
           <div className="col-lg-4">
-            <img src="img/IMG_2465-1_(1).jpg" className="imageAboutPage" alt="Profile" />
+            <div className="card__collection clear-fix">
+              <div className="cards cards--two">
+                <img
+                  src="img/raj.jpg"
+                  className="img-responsive"
+                  alt="Image"
+                />
+                <span className="cards--two__rect"></span>
+                <span className="cards--two__tri"></span>
+                <p>Raj Shimpi</p>
+                <ul className="cards__list my-2">
+                  <li><i className="fab fa-facebook-f"></i></li>
+                  <li><i className="fab fa-twitter"></i></li>
+                  <li><i className="fab fa-instagram"></i></li>
+                  <li><i className="fab fa-linkedin-in"></i></li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div className="col-lg-8">
             <p>

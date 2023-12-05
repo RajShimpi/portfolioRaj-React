@@ -3,7 +3,8 @@ import '../App.css';
 
 export default function Services() {
   return (
-    <section id="services" style={{ marginTop: '80px' }} >
+    <>
+       <section id="services" style={{ marginTop: '80px' }} >
       <h1 className="text-center">Services</h1>
 
       <div className="container row m-auto justify-content-center">
@@ -31,6 +32,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-    </section>
+    </section> 
+    </>
   );
 }
